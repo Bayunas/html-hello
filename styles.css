@@ -1,0 +1,75 @@
+header{
+    background: white;
+   
+}
+
+body{
+    background: gray;
+}
+
+img{
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  
+}
+
+.titleFeed{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    top: 0;
+}
+
+.post{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    background: white;
+    margin-top: 8%;
+    flex-wrap: wrap;
+}
+
+.photoTitle{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+   
+
+}
+
+.photoTitle span{
+   display: flex ;
+   align-items: center;
+   padding-right: 10px;
+  
+}
+
+.photoTitle h2{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.snaps{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.description{
+    text-align: start;
+    padding-left: 7px;
+    padding-bottom: 30px;
+}
